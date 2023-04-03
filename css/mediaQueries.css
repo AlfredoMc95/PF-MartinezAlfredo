@@ -1,0 +1,211 @@
+@media screen and (min-width: 480px){
+    /*Videos*/
+    .principalVideo{
+        height: 250px;
+    }
+}
+/*Tablet*/
+@media screen and (min-width: 600px){
+    /*Videos*/
+    .principalVideo{
+        height: 300px;
+    }
+    /*Mascotas*/
+    .albumGaleri__cards-card-imgage{
+        height: 300px;
+    }
+}
+@media screen and (min-width: 768px){
+    /*Inicio/Index*/
+    .map__iframe{
+        height: 300px;
+    }
+    /*Videos*/
+    .principalVideo{
+        height: 300px;
+    }
+    .similar__videos-card{
+        height: 220px;
+    }
+    /*Mascotas*/
+    .albumGaleri__cards-card-imgage{
+        height: 380px;
+    }
+}
+@media screen and (min-width: 1023px){
+    /*Videos*/
+    .principalVideo{
+        height: 500px;
+    }
+    .similar__videos-card{
+        height: 320px;
+    }
+    /*Mascotas*/
+    .albumGaleri__cards-card-imgage{
+        height: 480px;
+    }
+}
+/*Portatil*/
+@media screen and (min-width: 1200px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 10px;
+    }
+    .header .logo{
+        width: auto;
+        border-bottom: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        font-weight:500;
+    }
+    .menu__button{
+        border-right: 2px solid var(--border-vistaprevia);
+        padding: 0 20px;
+    }
+    .menu__button:last-child{
+        border-right: none;
+    }
+    /*Inicio/Index*/
+    .intro{
+        width: 100%;
+    }
+    .intro__img{
+        height: 600px;
+    }
+    .description{
+        width: 90%;
+        margin: 40px auto;
+        display: grid;
+        grid-template-areas:
+        'image texto texto';
+    }
+    .description__img{
+        grid-area: image;
+    }
+    .description__text{
+        grid-area: texto;
+        align-self: center;
+    }
+    .map__iframe{
+        width: 90%;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+    /*Video*/
+    .similars{
+        margin: 20px auto;
+        padding-bottom: 10px;
+    }
+    .similars__description-card-text{
+        padding-bottom: 10px;
+    }
+    .similar__videos{
+        gap: 10px;
+        background-color: var(--color-description);
+    }
+    .similar__videos-card{
+        width: 24%;
+        height: 230px;
+    }
+    /*Galeria*/
+    .bigImage{
+        margin: 0 auto;
+        padding-top: 40px;
+        width: 90%;
+        height: 700px;
+    }
+    .galeri{
+        display: grid;
+        width: 90%;
+        padding: 0px 0px;
+        margin: 0px auto;
+        margin-bottom: 50px;
+        gap: 0px;
+        grid-template-areas:
+        'picture1 picture1 picture2 picture3 picture3 picture3'
+        'picture1 picture1 picture2 picture3 picture3 picture3'
+        'picture1 picture1 picture4 picture4 picture6 picture6'
+        'picture1 picture1 picture5 picture5 picture8 picture8'
+        'picture1 picture1 picture7 picture7 picture8 picture8';
+    }
+    .picture1 { grid-area: picture1; }
+    .picture2 { grid-area: picture2; }
+    .picture3 { grid-area: picture3; }
+    .picture4 { grid-area: picture4; }
+    .picture5 { grid-area: picture5; }
+    .picture6 { grid-area: picture6; }
+    .picture7 { grid-area: picture7; }
+    .picture8 { grid-area: picture8; }
+    .galeri-picture{
+        width: auto;
+        border-radius: 0px;
+    }
+    .galeri-picture img{
+        border-radius: 0px;
+    }
+    /*Mascotas*/
+    .albumGaleri__cards{
+        gap: 10px;
+    }
+    .albumGaleri__cards-card{
+        width: 24%;
+    }
+    .albumGaleri__cards-card-imgage {
+        height: 300px;
+    }
+    .albumGaleri__cards-card-cotenedor{
+        margin-top: 20px;
+    }
+    /*Contacto*/
+    .form-container{
+        height: 600px;
+        margin: 40px auto;
+    }
+    input[type=submit]{
+        margin-top: 80px;
+    }
+    /*Footer*/
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__left{
+        width: 20%;
+        border-bottom: none;
+    }
+    .footer__right{
+        width: 20%;
+    }
+}
+/*Escritorio*/
+@media screen and (min-width: 1920px){
+    /*Videos*/
+    .principalVideo{
+        height: 600px;
+    }
+    .similar__videos-card{
+        height: 280px;
+    }
+    /*Galeria*/
+    .bigImage{
+        height: 980px;
+    }    
+    /*Mascotas*/
+    .albumGaleri__cards-card-imgage{
+        height: 500px;
+    }
+    /*Contacto*/
+    .form-container{
+        height: 700px;
+    }
+    input[type=text]{
+        margin: 40px 0px;
+    }
+    input[type=submit]{
+        margin-top: 130px;
+    }
+}
