@@ -41,6 +41,13 @@ iframe{
 body{
     background-color: var(--color-description);
 }
+.headerNav{
+    height: 50px;
+    background-color: var(--color-header-vistaprevia);
+}
+.bgNavbar{
+    background-color: var(--color-header-vistaprevia);
+}
 .header{
     display: flex;
     flex-direction: column;
