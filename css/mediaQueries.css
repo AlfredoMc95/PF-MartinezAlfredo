@@ -160,14 +160,6 @@
     .albumGaleri__cards-card-cotenedor{
         margin-top: 20px;
     }
-    /*Contacto*/
-    .form-container{
-        height: 600px;
-        margin: 40px auto;
-    }
-    input[type=submit]{
-        margin-top: 80px;
-    }
     /*Footer*/
     .footer{
         flex-direction: row;
@@ -197,15 +189,5 @@
     /*Mascotas*/
     .albumGaleri__cards-card-imgage{
         height: 500px;
-    }
-    /*Contacto*/
-    .form-container{
-        height: 700px;
-    }
-    input[type=text]{
-        margin: 40px 0px;
-    }
-    input[type=submit]{
-        margin-top: 130px;
     }
 }

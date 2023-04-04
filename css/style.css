@@ -13,7 +13,7 @@
     --color-formBG: #bb4d4d;
     --color-titulo-vistaprevia: #0e0e0e;
     --color-texto-vistaprevia: #f1f1f1;
-    --color-form:#682d2d;
+    --color-form:#864545;
     --color-trasnparent:#682d2d00;
 }
 * {
@@ -42,7 +42,7 @@ body{
     background-color: var(--color-description);
 }
 .headerNav{
-    height: 50px;
+    height: 60px;
     background-color: var(--color-header-vistaprevia);
 }
 .bgNavbar{
@@ -207,36 +207,10 @@ body{
     color: var(--color-texto-vistaprevia);
 }
 /*Contacto*/
-.form-container{
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
+.form-bg{
     background-color: var(--color-form);
 }
-form{
-    display: flex;
-    flex-direction: column;
-}
-label{
-    font-weight: bold;
-    padding: 10px 0;
-}
-input[type=text]{
-    height: 50px;
-    margin: 10px 0px;
-}
-input[type=submit]{
-    height: 60px;
-    font-weight: bold;
-}
 textarea {
-    width: 100%;
-    height: 100%;
-    padding: 12px;
-    margin-bottom: 10px;
-    border-radius: 2px;
-    border: 0;
-    background-color: #f8f8f8;
     resize: none;
 }
 /*Footer*/
