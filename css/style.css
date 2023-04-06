@@ -14,6 +14,8 @@
     --color-titulo-vistaprevia: #0e0e0e;
     --color-texto-vistaprevia: #f1f1f1;
     --color-form:#864545;
+    --color-btn:#508645;
+    --color-btn-border:#54d839;
     --color-trasnparent:#682d2d00;
 }
 * {
@@ -205,6 +207,10 @@ body{
 /*Contacto*/
 .form-bg{
     background-color: var(--color-form);
+}
+.btn-bg{
+    background-color: var(--color-btn);
+    border-color: var(--color-btn-border);
 }
 textarea {
     resize: none;
