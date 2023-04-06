@@ -41,10 +41,6 @@ iframe{
 body{
     background-color: var(--color-description);
 }
-.headerNav{
-    height: 60px;
-    background-color: var(--color-header-vistaprevia);
-}
 .bgNavbar{
     background-color: var(--color-header-vistaprevia);
 }

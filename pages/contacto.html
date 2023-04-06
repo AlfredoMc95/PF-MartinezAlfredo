@@ -20,62 +20,31 @@
 
 <body>
     <header class="headerNav">
-        <!-- <div class="logo">
-            <h1>Alfredo's pet</h1>
-        </div>
-        <nav class="navbar">
-            <ul class="menu">
-                <li class="menu__button">
-                    <a href="../index.html" class="menu__button-link">Inicio</a>
-                </li>
-                <li class="menu__button">
-                    <a href="video.html" class="menu__button-link">Videos</a>
-                </li>
-                <li class="menu__button">
-                    <a href="galeria.html" class="menu__button-link">Galeria</a>
-                </li>
-                <li class="menu__button">
-                    <a href="album.html" class="menu__button-link">Mascotas</a>
-                </li>
-                <li class="menu__button">
-                    <a href="contacto.html" class="menu__button-link">Contacto</a>
-                </li>
-            </ul>
-        </nav> -->
-        <nav class="navbar fixed-top bgNavbar">
+        <nav class="navbar navbar-expand-lg navbar-light bgNavbar">
             <div class="container-fluid">
-                <a href="../index.html">
-                    <h2>Alfredo's pet</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">Alfredo's pet</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end bgNavbar" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Alfredo's pet</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="video.html">Videos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="galeria.html">Galeria</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="album.html">Mascotas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item menu__button">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item menu__button">
+                            <a class="nav-link" href="video.html">Videos</a>
+                        </li>
+                        <li class="nav-item menu__button">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item menu__button">
+                            <a class="nav-link" href="album.html">Mascotas</a>
+                        </li>
+                        <li class="nav-item menu__button">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
