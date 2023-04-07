@@ -3,11 +3,17 @@
     .principalVideo{
         height: 250px;
     }
+    .similar__videos-card{
+        height: 250px;
+    }
 }
 /*Tablet*/
 @media screen and (min-width: 600px){
     /*Videos*/
     .principalVideo{
+        height: 300px;
+    }
+    .similar__videos-card{
         height: 300px;
     }
     /*Mascotas*/
@@ -24,8 +30,11 @@
     .principalVideo{
         height: 300px;
     }
+    .similar__videos{
+        gap: 10px;
+    }
     .similar__videos-card{
-        height: 220px;
+        width: 49%;
     }
     /*Mascotas*/
     .albumGaleri__cards-card-imgage{
