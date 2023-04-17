@@ -1,0 +1,29 @@
+.article{
+    .similars{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    &__description-card{
+        padding-bottom: 10px;
+        &-title{
+            font-size: $title-size;
+            color: $color-titulo-vistaprevia;
+            padding: 5px;
+        }
+        &-text{
+            color: $color-texto-vistaprevia;
+            padding: 5px;
+        }
+    }
+    &__videos{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: $color-description;
+        &-card{
+            width: 100%;
+            padding-bottom: 10px;
+        }
+    }
+}

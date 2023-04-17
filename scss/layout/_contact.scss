@@ -1,0 +1,10 @@
+.form-bg{
+    background-color: $color-form;
+    textarea {
+        resize: none;
+    }
+    .btn-bg{
+        background-color: $color-btn;
+        border-color: $color-btn-border;
+    }
+}

@@ -1,0 +1,54 @@
+.main{
+    .article{
+        .intro{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            &__text{
+                background-color: $color-intro-textFondo;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 95%;
+                padding: 15px 0px;
+                &-title{
+                    color: $color-titulo-vistaprevia;
+                    font-size: $title-size;
+                }
+                &-subTitle{
+                    color: $color-texto-vistaprevia;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .description{
+            background-color: $color-description;
+            padding-bottom: 5px;
+            &__text{
+                width: 80%;
+                text-align: center;
+                margin: 0 auto;
+                &-title{
+                    margin-bottom: 10px;
+                    color: $color-titulo-vistaprevia;
+                    font-size: $title-size;
+                }
+                &-content{
+                    color: $color-texto-vistaprevia;
+                }
+            }
+        }
+        .map{
+            background-color: $color-description;
+            text-align: center;
+            &__iframe{
+                width: 90%;
+                height: 200px;
+                margin: 10px 0;
+                border: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.albumGaleri{
+    text-align: center;
+    padding-bottom: 20px;
+    &__title{
+        padding: 20px 0;
+        font-size: $title-size;
+        color: $color-titulo-vistaprevia;
+    }
+    &__cards{
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+        margin: 0 auto;
+        gap: 1px;
+        &-card{
+            width: 48%;
+            margin-bottom: 20px;
+            &-imgage{
+                height: 150px;
+                img{
+                    border-radius: 10px;
+                }
+            }
+            &-title{
+                font-size: $title-size;
+                color: $color-titulo-vistaprevia;
+            }
+            &-description{
+                color: $color-texto-vistaprevia;
+            }
+        }
+    }
+}
