@@ -1,0 +1,14 @@
+//*vars & reset
+@import 'base/vars';
+@import 'base/reset';
+//*commponets
+@import 'components/navbar';
+@import 'components/boddy';
+@import 'components/footer';
+//layout
+@import 'layout/Inicio';
+@import 'layout/video';
+@import 'layout/galery';
+@import 'layout/album';
+@import 'layout/contact';
+@import 'layout/mediaqueries'
