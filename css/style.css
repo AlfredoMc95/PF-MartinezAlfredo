@@ -25,12 +25,12 @@ iframe {
   height: 100%;
 }
 
-.bgNavbar {
-  background-color: #8aa8ca;
-}
-
 body {
   background-color: #553e3e;
+}
+
+.bgNavbar {
+  background-color: #8aa8ca;
 }
 
 /*Footer*/
