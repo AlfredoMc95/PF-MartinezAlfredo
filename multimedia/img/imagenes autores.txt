@@ -4,7 +4,6 @@ mascota	 : <a href="https://www.freepik.es/foto-gratis/escuchandote-perro-joven-
 mascota2 : <a href="https://www.freepik.es/foto-gratis/lindo-cachorro-perro-teckel-posando-aislado-sobre-fondo-blanco_27093595.htm#page=2&query=perros&position=7&from_view=search&track=sph?sign-up=google">Imagen de master1305</a> en Freepik
 mascota3 : <a href="https://www.freepik.es/foto-gratis/primer-plano-lindo-cachorro-golden-retriever-sentado-aislado-superficie-blanca_16224915.htm#page=2&query=perros&position=12&from_view=search&track=sph">Imagen de wirestock</a> en Freepik
 mascota4 : <a href="https://www.freepik.es/foto-gratis/lindo-spitz_6255618.htm#page=2&query=perros&position=17&from_view=search&track=sph">Imagen de Racool_studio</a> en Freepik
-mascota5 : <a href="https://www.freepik.es/psd-gratis/adorable-beagle-cachorro-solo-retrato_3730322.htm#page=2&query=perros&position=40&from_view=search&track=sph">Imagen de rawpixel.com</a> en Freepik
 mascota6 : Imagen de <a href="https://www.freepik.es/foto-gratis/retrato-mascota-adorable-aislado_20734742.htm#page=2&query=gatos&position=8&from_view=search&track=sph">Freepik</a>
 mascota7 : Imagen de <a href="https://www.freepik.es/foto-gratis/retrato-adorable-gato-domestico_20083091.htm#page=2&query=gatos&position=27&from_view=search&track=sph">Freepik</a>
 mascota8 : <a href="https://www.freepik.es/foto-gratis/disparo-enfoque-selectivo-lindo-gato-beige-tirado-suelo-mirando-derecha_17232069.htm#page=2&query=gatos&position=31&from_view=search&track=sph">Imagen de wirestock</a> en Freepik
