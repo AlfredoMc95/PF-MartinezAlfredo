@@ -1,17 +1,18 @@
 .main{
     .article{
         .intro{
-            position: relative;
-            display: inline-block;
             text-align: center;
             &__text{
-                background-color: $color-intro-textFondo;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 95%;
-                padding: 15px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: linear-gradient(180deg, #643a6b9a,#5f264a85),url(../../multimedia/img/portada.webp);
+                background-size: cover;
+                width: 100%;
+                height: 400px;
+                color: white;
+                padding: 0px 20px;
                 &-title{
                     color: $color-titulo-vistaprevia;
                     font-size: $title-size;
