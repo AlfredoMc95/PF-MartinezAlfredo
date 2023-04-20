@@ -80,30 +80,36 @@
         }
     }
     /*Inicio/Index*/
-    .intro{
-        width: 100%;
-        &__img{
-            height: 600px;
+    .main{
+        .article{
+            .intro{
+                &__text{
+                    background-size: cover;
+                    height: 500px;
+                }
+            }
+            .description{
+                width: 90%;
+                margin: 40px auto;
+                display: grid;
+                grid-template-areas:
+                'image texto texto';
+                &__img{
+                    grid-area: image;
+                }
+                &__text{
+                    grid-area: texto;
+                    align-self: center;
+                }
+            }
+            .map{
+                &__iframe{
+                    width: 90%;
+                    height: 350px;
+                    margin-bottom: 40px;
+                }
+            }
         }
-    }
-    .description{
-        width: 90%;
-        margin: 40px auto;
-        display: grid;
-        grid-template-areas:
-        'image texto texto';
-        &__img{
-            grid-area: image;
-        }
-        &__text{
-            grid-area: texto;
-            align-self: center;
-        }
-    }
-    .map__iframe{
-        width: 90%;
-        height: 350px;
-        margin-bottom: 40px;
     }
     /*Video*/
     .similars{
