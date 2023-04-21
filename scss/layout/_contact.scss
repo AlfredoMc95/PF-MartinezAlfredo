@@ -1,10 +1,39 @@
 .form-bg{
     background-color: $color-form;
+    input{
+        background-color: $bacground-input;
+        border-color: $border-input;
+        color: $color-input;
+        transition: all 1s;
+        &:focus{
+            font-size: 20px;
+            background-color: $bacground-input-hover;
+            border-color: $border-input-hover;
+            color: $color-input-hover;
+        }
+    }
     textarea {
         resize: none;
+        background-color: $bacground-input;
+        border-color: $border-input;
+        color: $color-input;
+        transition: all 1s;
+        &:focus{
+            font-size: 20px;
+            background-color: $bacground-input-hover;
+            border-color: $border-input-hover;
+            color: $color-input-hover;
+        }
     }
     .btn-bg{
         background-color: $color-btn;
         border-color: $color-btn-border;
+        transition: all 1s;
+        &:hover{
+            font-size: 20px;
+            background-color: $bacground-btn-hover;
+            border-color: $border-btn-hover;
+            color: $color-btn-hover;
+        }
     }
 }
