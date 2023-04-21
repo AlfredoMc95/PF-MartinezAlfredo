@@ -409,7 +409,7 @@ body {
     margin: 0px auto;
     margin-bottom: 50px;
     gap: 0px;
-    grid-template-areas: "picture1 picture1 picture2 picture3 picture3 picture3" "picture1 picture1 picture2 picture3 picture3 picture3" "picture1 picture1 picture4 picture4 picture6 picture6" "picture1 picture1 picture5 picture5 picture8 picture8" "picture1 picture1 picture7 picture7 picture8 picture8";
+    grid-template-areas: "picture1 picture1 picture2 picture3 picture3 picture3" "picture1 picture1 picture2 picture3 picture3 picture3" "picture1 picture1 picture4 picture4 picture4 picture6" "picture1 picture1 picture5 picture5 picture8 picture8" "picture1 picture1 picture7 picture7 picture8 picture8";
   }
   .galeri-picture {
     width: auto;
