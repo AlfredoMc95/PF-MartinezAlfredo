@@ -1,11 +1,10 @@
 .galeri{
-    display: flex;
+    @include d-flex(row,none,none,1px);
     flex-flow: row wrap;
     width: 90%;
     padding: 20px 0px;
     width: 90%;
     margin: 0 auto;
-    gap: 1px;
     &-picture{
         width: 49%;
         border-radius: 50px;

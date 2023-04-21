@@ -7,11 +7,10 @@
         color: $color-titulo-vistaprevia;
     }
     &__cards{
-        display: flex;
+        @include d-flex(row,none,none,1px);
         flex-flow: row wrap;
         width: 80%;
         margin: 0 auto;
-        gap: 1px;
         &-card{
             width: 48%;
             margin-bottom: 20px;
@@ -36,13 +35,6 @@
                         border-radius: 5px;
                         font-weight: 500;
                         color: white;
-                        transition: all 1s;
-                        &:hover{
-                            background-color: $color-btn;
-                            font-size: 20px;
-                            color: $color-btn-alt-hover;
-                            border-color: $color-btn-alt-border-hover;
-                        }
                     }
                 }
             }
