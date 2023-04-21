@@ -208,16 +208,61 @@ body {
 .albumGaleri__cards-card-description {
   color: #e4f0e8;
 }
+.albumGaleri__cards-card-description a button {
+  background-color: #265f3b;
+  border: 2px solid #bb4d4d;
+  padding: 10px 15px;
+  border-color: none;
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+  transition: all 1s;
+}
+.albumGaleri__cards-card-description a button:hover {
+  background-color: #643A6B;
+  font-size: 20px;
+  color: #bb4d4d;
+  border-color: #265f3b;
+}
 
 .form-bg {
   background-color: #265f3b;
 }
+.form-bg input {
+  background-color: #643A6B;
+  border-color: #bb4d4d;
+  color: #e4f0e8;
+  transition: all 1s;
+}
+.form-bg input:focus {
+  font-size: 20px;
+  background-color: #bb4d4d;
+  border-color: #643A6B;
+  color: #0c2b08;
+}
 .form-bg textarea {
   resize: none;
+  background-color: #643A6B;
+  border-color: #bb4d4d;
+  color: #e4f0e8;
+  transition: all 1s;
+}
+.form-bg textarea:focus {
+  font-size: 20px;
+  background-color: #bb4d4d;
+  border-color: #643A6B;
+  color: #0c2b08;
 }
 .form-bg .btn-bg {
   background-color: #643A6B;
   border-color: #B0A4A4;
+  transition: all 1s;
+}
+.form-bg .btn-bg:hover {
+  font-size: 20px;
+  background-color: #bb4d4d;
+  border-color: #643A6B;
+  color: #0c2b08;
 }
 
 /*Media queries*/

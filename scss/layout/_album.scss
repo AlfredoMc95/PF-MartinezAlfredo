@@ -27,6 +27,24 @@
             }
             &-description{
                 color: $color-texto-vistaprevia;
+                a{
+                    button{
+                        background-color: $color-btn-alt;
+                        border: 2px solid $color-btn-alt-border;
+                        padding: 10px 15px;
+                        border-color: none;
+                        border-radius: 5px;
+                        font-weight: 500;
+                        color: white;
+                        transition: all 1s;
+                        &:hover{
+                            background-color: $color-btn;
+                            font-size: 20px;
+                            color: $color-btn-alt-hover;
+                            border-color: $color-btn-alt-border-hover;
+                        }
+                    }
+                }
             }
         }
     }
