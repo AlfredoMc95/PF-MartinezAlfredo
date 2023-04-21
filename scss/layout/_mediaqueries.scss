@@ -168,16 +168,31 @@
     .picture7 { grid-area: picture7; }
     .picture8 { grid-area: picture8; }
     /*Mascotas*/
-    .albumGaleri__cards{
-        gap: 10px;
-        &-card{
-            width: 24%;
-            &-imgage {
-                height: 300px;
-            }   
-            &-cotenedor{
-                margin-top: 20px;
-            }     
+    .albumGaleri{
+        &__cards{
+            gap: 10px;
+            &-card{
+                width: 24%;
+                &-imgage{
+                    height: 300px;
+                }
+                &-cotenedor{
+                    margin-top: 20px;
+                }    
+                &-description{
+                    a{
+                        button{
+                            transition: all 1s;
+                            &:hover{
+                                background-color: $color-btn;
+                                font-size: 20px;
+                                color: $color-btn-alt-hover;
+                                border-color: $color-btn-alt-border-hover;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     /*Footer*/

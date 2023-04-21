@@ -13,10 +13,7 @@
                 height: 100%;
                 text-align: center;
                 background: linear-gradient(180deg, #643a6bdc,#5f264ac7);
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
+                @include d-flex(column,center,center,0px);
                 &-title{
                     color: $color-titulo-vistaprevia;
                     font-size: $title-size;
