@@ -302,11 +302,8 @@ body {
   .principalVideo {
     height: 300px;
   }
-  .similar__videos {
-    gap: 10px;
-  }
   .similar__videos-card {
-    width: 49%;
+    width: 100%;
   }
   /*Mascotas*/
   .albumGaleri__cards-card-imgage {
