@@ -5,6 +5,14 @@
         padding: 20px 0;
         font-size: $title-size;
         color: $color-titulo-vistaprevia;
+        h3{
+            background-color: $bacground-title;
+            border: 2px solid $border-title;
+            color: $color-title;
+            display: inline-block;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
     }
     &__cards{
         @include d-flex(row,none,none,1px);

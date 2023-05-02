@@ -4,17 +4,25 @@
         text-align: center;
         margin: 0 auto;
         padding-bottom: 10px;
-    }
-    &__description-card{
-        padding-bottom: 10px;
-        &-title{
-            font-size: $title-size;
-            color: $color-titulo-vistaprevia;
-            padding: 5px;
-        }
-        &-text{
-            color: $color-texto-vistaprevia;
-            padding: 5px;
+        &__description-card{
+            padding-bottom: 10px;
+            &-title{
+                font-size: $title-size;
+                color: $color-titulo-vistaprevia;
+                padding: 5px;
+                h3{
+                    background-color: $bacground-title;
+                    border: 2px solid $border-title;
+                    color: $color-title;
+                    display: inline-block;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                }
+            }
+            &-text{
+                color: $color-texto-vistaprevia;
+                padding: 5px;
+            }
         }
     }
     &__videos{
